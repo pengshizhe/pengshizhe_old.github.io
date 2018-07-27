@@ -1,39 +1,65 @@
-<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>Peng Shizhe's homepage</title>
 <style type="text/css">
-table.gridtable {
-	font-family: verdana,arial,sans-serif;
-	font-size:11px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #666666;
+table {
+	height: 340px;
+	width: 800px;
 	border-collapse: collapse;
+
 }
-table.gridtable th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #666666;
-	background-color: #dedede;
+
+table, td, th {
+
+    border: 1px solid black;	
+	text-align: center;	
 }
-table.gridtable td {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #666666;
-	background-color: #ffffff;
+#book {
+	font-style: italic;
 }
 </style>
+</head>
+<body>
 
-<!-- Table goes in the document BODY -->
-<table class="gridtable">
-<tr>
-	<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>
-</tr>
-<tr>
-	<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
-</tr>
-<tr>
-	<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
-</tr>
+<table>
+  <tr>
+    <td>Research</td>
+    <td>Warranty</td>
+	<td id="book">Design of Usage-Based Preventive Maintenances <br/>under Two-Dimensional Warranties</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Theory</td>
+    <td>Probability</td>
+	<td id="book">Adventures in Stochastic Processes, Sidney Resnick<br/>Probability: Theory and Examples, Rick Durrett</td>
+  </tr>
+  <tr>
+    <td>Statistics</td>
+	<td id="book">Bayesian Data Analysis, Andrew Gelman et al.<br/>OpenIntro Statistics, David Diez et al.<br/>Statistical Inference, George Casella & Roger Berger</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Application</td>
+    <td>Marketing</td>
+	<td id="book">Bayesian Statistics and Marketing, Peter Rossi et al.</td>
+  </tr>
+  <tr>
+    <td>Finance</td>
+	<td id="book">Options, Futures, and Other Derivatives, John Hull</td>
+  </tr>
+  <tr>
+    <td>Insurance</td>
+	<td id="book"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Programming</td>
+    <td>Python</td>
+	<td id="book"</td>
+  </tr>
+  <tr>
+    <td>R</td>
+	<td id="book"></td>
+  </tr>
 </table>
 
+</body>
+</html>
