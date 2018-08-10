@@ -18,7 +18,8 @@ table, td, th {
 	font-style: italic;
 }
 #other_link {color:white}
-a {color:red}
+a.reading {color:red}
+a.others {color:black}
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
 a:hover {
@@ -76,16 +77,16 @@ p {
   <tr>
     <td>Research</td>
     <td>Warranty &amp; PM</td>
-	<td id="book"><p><a>Design of Usage-Based Preventive Maintenances <br/>under Two-Dimensional Warranties</a></p></td>
+	<td id="book"><p><a class="reading">Design of Usage-Based Preventive Maintenances <br/>under Two-Dimensional Warranties</a></p></td>
   </tr>
   <tr>
     <td rowspan="5">Theory</td>
     <td>Probability</td>
-	<td id="book"><p>Adventures in Stochastic Processes, Sidney Resnick</p><p><a href="https://services.math.duke.edu/~rtd/PTE/pte5.html" target="_blank">Probability: Theory and Examples, Rick Durrett</a></p></td>
+	<td id="book"><p>Adventures in Stochastic Processes, Sidney Resnick</p><p><a href="https://services.math.duke.edu/~rtd/PTE/pte5.html" target="_blank" class="others">Probability: Theory and Examples, Rick Durrett</a></p></td>
   </tr>
   <tr>
     <td>Statistics</td>
-	<td id="book"><p>Bayesian Data Analysis, Andrew Gelman et al.</p><p>Statistical Inference, George Casella &amp; Roger Berger</p></td>
+	<td id="book"><p><a href="http://www.stat.columbia.edu/~gelman/book/" target="_blank" class="reading">Bayesian Data Analysis, Andrew Gelman et al.</p></a><p>Statistical Inference, George Casella &amp; Roger Berger</p></td>
   </tr>
   <tr>
     <td>Machine Learning</td>
@@ -111,7 +112,7 @@ p {
   <tr>
     <td rowspan="2">Programming</td>
     <td>Python</td>
-	<td id="book"><p><a href="https://book.douban.com/subject/26278021/" target="_blank">Fluent Python, Luciano Ramalho</a></p></td>
+	<td id="book"><p><a href="https://book.douban.com/subject/26278021/" target="_blank" class="others">Fluent Python, Luciano Ramalho</a></p></td>
   </tr>
   <tr>
     <td>R</td>
